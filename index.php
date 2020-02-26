@@ -1,9 +1,5 @@
 <html>
 <body>
-
-  <div><h1>Hello ACME!</h1></div>
-
-  <div><h3>Website deployed using Ansible Tower</h3></div>
   <?php
     header("Refresh: 1; url=$page");
     $fqdn = gethostname();
@@ -15,8 +11,12 @@
     } else {
         $color = 'Blue';
     }
-    echo "Served to you from: ";
-    echo '<span style="color:', $color, ';">', $host, '</span>';
+  echo '<span style="color:', $color, ';">', $host, '</span>';
+  echo '<div style="color:', $color, ';">';
+  echo '<h1>Hello ACME!</h1>';
+  echo '<h3>Website deployed using Ansible Tower</h3>';
+  echo 'Served to you from: <span>', $host, '</span>';
+  echo '</div>'
   ?>
 </body>
 </html>
