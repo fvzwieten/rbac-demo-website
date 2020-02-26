@@ -15,7 +15,7 @@
     } else {
         $color = 'blue';
     }
-    echo substr($host,-5);
+    echo "<div>", substr($host,-5), "</div>";
     echo "Served to you from: ";
     echo '<span style="color:', $color, ';">', $host, '</span>';
     echo $domain;
