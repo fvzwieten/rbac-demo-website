@@ -11,12 +11,12 @@
     $host = substr($fqdn, 0, $pos);
     $domain = substr($fqdn,$pos);
     if (substr($host,-1) == '1') {
-        $color = 'red';
+        $color = 'Red';
     } else {
-        $color = 'blue';
+        $color = 'Blue';
     }
     echo "Served to you from: ";
-    echo '<span style="color:', $color, '">', $host, '</span>';
+    echo '<span style="color:', $color, ';">', $host, '</span>';
   ?>
 </body>
 </html>
