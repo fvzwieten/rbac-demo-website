@@ -6,7 +6,8 @@
     $pos = strpos($fqdn,'.');
     $host = substr($fqdn, 0, $pos);
     $domain = substr($fqdn,$pos);
-    if (substr($host,-1) == '1') {
+    $last = substr($host,-1);
+    if ($last == '1') {
         $color = 'Red';
     } else {
         $color = 'Blue';
