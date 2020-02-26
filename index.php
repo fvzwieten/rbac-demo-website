@@ -10,7 +10,7 @@
     $pos = strpos($fqdn,'.');
     $host = substr($fqdn, 0, $pos);
     $domain = substr($fqdn,$pos);
-    if ($host == 'webserver1') {
+    if (substr($host,-1) == '1') {
         $color = 'red';
     } else {
         $color = 'blue';
