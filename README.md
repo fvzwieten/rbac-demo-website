@@ -1,4 +1,4 @@
-# mywebapp
+# website demo
 
 This is an example web page to show during ansible lamp-haproxy demo's.
 
