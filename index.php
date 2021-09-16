@@ -13,7 +13,7 @@
     }
   echo '<div style="color:', $color, ';">';
   echo '<h1>Welcome @ ACME!</h1>';
-  echo '<h2>Website deployed using Ansible Tower</h2>';
+  echo '<h2>Website deployed using Ansible Automation Platform</h2>';
   echo '<h3>Served to you from: <span>', $host, '</span></h3>';
   echo '</div>'
   ?>
