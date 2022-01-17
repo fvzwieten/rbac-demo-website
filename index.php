@@ -12,8 +12,8 @@
         $color = 'Blue';
     }
   echo '<div style="color:', $color, ';">';
-  echo '<h1>Welcome @ ACME cop</h1>';
-  echo '<h2>Website deployed using Ansible Automation Plat</h2>';
+  echo '<h1>Welcome @ ACME coop</h1>';
+  echo '<h2>Website deployed using Ansible Automation Platform</h2>';
   echo '<h3>Served to you from: <span>', $host, '</span></h3>';
   echo '</div>'
   ?>
