@@ -14,7 +14,7 @@
 
     echo '<h2>Website deployed using Ansible Automation Platform</h2>';
 
-    echo '<h3>Served to you from: <span>', $fqdn, ' (version: ', $version, ')</span></h3>';
+    echo '<h3>Served to you from webserver: <span>', $fqdn, ' (config version: ', $version, ')</span></h3>';
 
     echo '</div>';
   ?>
