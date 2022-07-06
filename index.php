@@ -10,7 +10,7 @@
     $color = $colors[ ($version % 9) + $serial ];
     echo '<div style="color:', $color, ';">';
 
-    echo '<h1>Welcome @ Demo company</h1>';
+    echo '<h1>Welcome Acme Coorporation</h1>';
 
     echo '<h2>Website deployed using Ansible Automation Platform</h2>';
 
