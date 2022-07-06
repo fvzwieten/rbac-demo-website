@@ -2,7 +2,7 @@
 <body>
   <?php
     header("Refresh: 1; url=$page");
-    $website_config = parse_ini_file("/etc/webserver.conf");
+    $website_config = parse_ini_file("/etc/ansible/facts.d/webserver.fact");
     $fqdn = gethostname();
     $version = $website_config['version'];
     $serial = $website_config['serial'];
